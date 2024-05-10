@@ -714,7 +714,7 @@ body {
   }
   #ABOUT .container p {
     font-family: "mycustomfont";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #000;
     line-height: 1.4;
@@ -889,7 +889,7 @@ body {
   }
   #TESTIMONIALS .container p {
     font-family: "mycustomfont";
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin: 10px 0 10px 0;
   }
