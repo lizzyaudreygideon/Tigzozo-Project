@@ -1,0 +1,2157 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "mycustomfont";
+  src: url(JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: "style";
+  src: url(GreatVibes-Regular-webfont.ttf);
+}
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .navigation a {
+  color: white;
+}
+.dark-mode .navigation .dropbtn {
+  background-color: #000;
+}
+.dark-mode .banner .text h1 {
+  color: white;
+}
+.dark-mode .banner .text p {
+  color: white;
+}
+.dark-mode .banner .text i {
+  color: white;
+}
+.dark-mode #ABOUT .container p {
+  color: white;
+}
+.dark-mode #ABOUT h3 {
+  color: white;
+}
+.dark-mode #SERVICES .service h3 {
+  color: white;
+}
+.dark-mode #TESTIMONIALS h3 {
+  color: white;
+}
+.dark-mode .socials h3 {
+  color: white;
+}
+.dark-mode img {
+  border-color: black;
+}
+.dark-mode .banner .text .para1 {
+  color: rgb(116, 34, 150);
+}
+.dark-mode .banner .text .para1 i {
+  color: rgb(116, 34, 150);
+}
+.dark-mode .navigation .dropbtn:hover, .dark-mode .dropbtn:focus {
+  background-color: black;
+}
+.dark-mode .navigation ul {
+  background-color: #000;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .snav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navigation .snav li {
+  display: inline-block;
+}
+.navigation .snav label {
+  display: block;
+}
+.navigation .snav label i {
+  font-size: 30px;
+  float: right;
+  padding: 10px;
+  margin: 20px 40px;
+  cursor: pointer;
+  display: none;
+}
+.navigation .snav #check {
+  display: none;
+}
+.navigation .logo {
+  margin: 20px 0;
+  position: relative;
+  left: 3%;
+}
+.navigation .logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 65px;
+}
+.navigation nav {
+  display: inline;
+}
+.navigation nav a {
+  font-family: "mycustomfont";
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+.navigation nav .serve {
+  color: rgb(116, 34, 150);
+}
+.navigation .light {
+  border-radius: 50%;
+  right: 17%;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+.navigation .dropbtn {
+  background-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.navigation .dropbtn:hover, .navigation .dropbtn:focus {
+  background-color: white;
+}
+.navigation .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navigation .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.navigation .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.navigation .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.navigation .show {
+  display: block;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 60px 60px 60px;
+}
+.banner .text h1 {
+  font-family: "mycustomfont";
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+.banner .text p {
+  margin: 15px 0;
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+}
+.banner .text p i {
+  font-size: 23px;
+  color: black;
+  margin: 0 5px 0 0;
+}
+.banner .text .para1 {
+  font-size: 18px;
+  color: rgb(116, 34, 150);
+  margin: 40px 0 20px;
+}
+.banner .text .para2 {
+  margin: 0;
+  font-size: 18px;
+}
+.banner .text a {
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  width: 200px;
+  height: 55px;
+  padding: 10px;
+  margin: 0px 15px 0px 0;
+  border: solid rgb(116, 34, 150);
+  border-width: 4px 8px;
+}
+.banner .text .button1 {
+  color: white;
+  background-color: rgb(116, 34, 150);
+}
+.banner .text .button2 {
+  color: black;
+  background-color: white;
+}
+.banner .images {
+  display: flex;
+}
+.banner .images img {
+  width: 185px;
+  height: 500px;
+}
+.banner .images .top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 50px 5px 0 0;
+}
+.banner .images .bottom {
+  margin: 0 5px 50px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#ABOUT {
+  padding: 10px 0px 40px 0px;
+}
+#ABOUT h3 {
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin: 60px 40px 20px 60px;
+}
+#ABOUT .container {
+  padding: 0 100px 0 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+#ABOUT .container p {
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+}
+#ABOUT .container .pictext {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+#ABOUT .container .pictext img {
+  width: 250px;
+  height: 46vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#ABOUT .container .pictext p {
+  width: 70%;
+}
+#ABOUT .container .pictext .M1 {
+  margin: 10px 0 0 0;
+}
+#ABOUT .container .pictext .M2 {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+}
+#ABOUT .container .vidtext {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+#ABOUT .container .vidtext .dance {
+  height: 50vh;
+  width: 400px;
+  margin: 0 0 10px 0;
+}
+#ABOUT .container .vidtext .youtube {
+  border-radius: 8px;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+#ABOUT .container .vidtext a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px;
+}
+#ABOUT .container .vidtext p {
+  width: 90%;
+}
+#ABOUT .container .vidtext .button1 {
+  border-width: 4px 8px;
+  color: white;
+  background-color: rgb(116, 34, 150);
+  border: solid rgb(116, 34, 150);
+  margin: 24px 0 0 0;
+}
+
+#SERVICES {
+  margin: 20px;
+  padding: 40px;
+}
+#SERVICES .service h3 {
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+#SERVICES .service .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#SERVICES .service .images .lin {
+  width: 350px;
+  height: 500px;
+}
+#SERVICES .service .images .next {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#SERVICES .service .images .digitalservice {
+  padding: 10px;
+  position: relative;
+  margin: 20px;
+  width: 350px;
+  height: 500px;
+  color: white;
+  background-color: rgb(116, 34, 150);
+}
+#SERVICES .service .images .digitalservice p {
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px;
+}
+#SERVICES .service .images .digitalservice li {
+  list-style: number;
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px;
+  line-height: 1.4;
+}
+#SERVICES .service .images .digitalservice .hr {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border-color: white;
+  position: relative;
+  right: 14px;
+  width: 66px;
+}
+#SERVICES .service .images .digitalservice .over2 {
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  background-color: #f7f7f7;
+  padding: 5px;
+}
+#SERVICES .service .images .middle {
+  position: relative;
+}
+#SERVICES .service .images .middle .over1 {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  font-family: "mycustomfont";
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 92%;
+  left: 46%;
+}
+#SERVICES .service .images .middle .over1 p {
+  margin: 0 60px 0 0;
+}
+#SERVICES .service .images .middle {
+  position: relative;
+}
+#SERVICES .service .images .middle .over3 {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  font-family: "mycustomfont";
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 92%;
+  left: 46%;
+}
+#SERVICES .service .images .middle .over3 p {
+  margin: 0 60px 0 0;
+}
+
+#TESTIMONIALS {
+  margin: 60px 60px 0 60px;
+}
+#TESTIMONIALS .container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+#TESTIMONIALS .container p {
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
+#TESTIMONIALS .container .h {
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+#TESTIMONIALS .container .human {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 250px;
+}
+#TESTIMONIALS .container .arrow img {
+  width: 50px;
+  height: 51px;
+}
+#TESTIMONIALS .container .ceo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#TESTIMONIALS .container .ceo .arrow img {
+  position: absolute;
+  top: 43%;
+  left: 88%;
+}
+#TESTIMONIALS .container .bride {
+  position: relative;
+  bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#TESTIMONIALS .container .bride .arrow img {
+  position: absolute;
+  top: 43%;
+  left: 88%;
+}
+#TESTIMONIALS h3 {
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.socials {
+  text-align: center;
+  padding: 40px;
+}
+.socials h3 {
+  font-family: "mycustomfont";
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 80px 0;
+  text-shadow: grey 2px 2px 2px;
+}
+.socials h3 span {
+  font-family: "style";
+  font-size: 30px;
+  font-weight: 100;
+}
+.socials .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials .container img {
+  width: 153px;
+  height: 350px;
+  margin: 5px;
+}
+.socials .top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  bottom: 40px;
+}
+.socials .botttom {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  top: 40px;
+}
+.socials p {
+  font-family: "mycustomfont";
+  font-size: 22px;
+  font-weight: 700;
+  margin: 90px 0 0 0;
+}
+.socials .button1 {
+  color: white;
+  background-color: rgb(116, 34, 150);
+  border: solid rgb(116, 34, 150);
+  border-width: 4px 8px;
+  font-family: "mycustomfont";
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+}
+
+.footer {
+  padding: 40px;
+  background-color: rgb(116, 34, 150);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer .logo img {
+  margin: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 8vh;
+  width: 150px;
+}
+.footer p {
+  font-family: "mycustomfont";
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+.footer .ico {
+  margin: 0 0 8px 0px;
+}
+.footer .para {
+  text-decoration: underline;
+}
+.footer .copy1 {
+  margin: 0 0 8px 40px;
+}
+.footer .copy i {
+  font-size: 18px;
+}
+.footer i {
+  font-size: 30px;
+  margin: 10px;
+}
+.footer .content1 i {
+  font-size: 18px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .navigation {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation .logo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 10vh;
+  }
+  .navigation .nav {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation .nav a {
+    font-family: "mycustomfont";
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .navigation .nav .serve {
+    color: rgb(116, 34, 150);
+  }
+  .navigation .light {
+    border-radius: 50%;
+    right: 8%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 31px 0;
+    cursor: pointer;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+  }
+  .banner .text h1 {
+    font-family: "mycustomfont";
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+  }
+  .banner .text p {
+    margin: 20px 0 0 0;
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
+  }
+  .banner .text .para1 {
+    font-size: 16px;
+    margin: 25px 0 10px 0;
+    color: rgb(116, 34, 150);
+  }
+  .banner .text .para2 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+  .banner .text i {
+    margin: 0 10px 0 0;
+  }
+  .banner .text a {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px 10px 10px 0;
+  }
+  .banner .text .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .text .button2 {
+    color: black;
+    background-color: white;
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .images {
+    justify-content: center;
+    display: flex;
+  }
+  .banner .images img {
+    width: 153px;
+    height: 383px;
+    margin: 20px;
+  }
+  .banner .images .top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 0;
+  }
+  .banner .images .bottom {
+    display: none;
+  }
+  #ABOUT {
+    padding: 0 0 30px 0;
+  }
+  #ABOUT h3 {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 40px 30px 20px 30px;
+  }
+  #ABOUT .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #ABOUT .container p {
+    font-family: "mycustomfont";
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+  #ABOUT .container .pictext {
+    position: relative;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #ABOUT .container .pictext img {
+    width: 301px;
+    height: 415px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #ABOUT .container .pictext p {
+    width: 100%;
+  }
+  #ABOUT .container .pictext .M1 {
+    margin: 10px;
+  }
+  #ABOUT .container .pictext .M2 {
+    display: none;
+  }
+  #ABOUT .container .vidtext {
+    position: relative;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  #ABOUT .container .vidtext .dance {
+    display: none;
+  }
+  #ABOUT .container .vidtext p {
+    width: 100%;
+  }
+  #ABOUT .container .vidtext .youtube {
+    display: none;
+  }
+  #ABOUT .container .vidtext a {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+  }
+  #ABOUT .container .vidtext .button1 {
+    border-width: 4px 8px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    margin: 12px 0 0 0;
+  }
+  #SERVICES {
+    margin: 0px;
+    padding: 20px;
+  }
+  #SERVICES .service h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 40px 0;
+  }
+  #SERVICES .service .images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #SERVICES .service .images .lin {
+    width: 313px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #SERVICES .service .images .next {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #SERVICES .service .images .digitalservice {
+    padding: 10px;
+    position: relative;
+    margin: 20px;
+    width: 313px;
+    height: 500px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+  }
+  #SERVICES .service .images .digitalservice p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  #SERVICES .service .images .digitalservice li {
+    list-style: number;
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px;
+  }
+  #SERVICES .service .images .digitalservice .hr {
+    height: 2px;
+    color: white;
+    background-color: white;
+    border-color: white;
+    position: relative;
+    right: 14px;
+    width: 66px;
+  }
+  #SERVICES .service .images .digitalservice .over2 {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    background-color: white;
+    padding: 5px;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over1 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+  }
+  #SERVICES .service .images .middle .over1 p {
+    margin: 0 60px 0 0;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over3 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+  }
+  #SERVICES .service .images .middle .over3 p {
+    margin: 0 60px 0 0;
+  }
+  #TESTIMONIALS {
+    margin: 30px;
+  }
+  #TESTIMONIALS .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #TESTIMONIALS .container p {
+    font-family: "mycustomfont";
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+  }
+  #TESTIMONIALS .container .h {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 700;
+    margin: 40px 0 10px 0;
+  }
+  #TESTIMONIALS .container .human {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 316px;
+    height: 250px;
+  }
+  #TESTIMONIALS .container .ceo {
+    position: relative;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container .ceo .arrow img {
+    position: absolute;
+    top: 45%;
+    left: 86%;
+  }
+  #TESTIMONIALS .container .bride {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container .bride .arrow img {
+    position: absolute;
+    top: 45%;
+    left: 86%;
+  }
+  #TESTIMONIALS h3 {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 30px 0;
+  }
+  .socials {
+    text-align: center;
+    padding: 0;
+  }
+  .socials h3 {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px 0;
+    text-shadow: grey 2px 2px 2px;
+  }
+  .socials .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials .container img {
+    width: 100px;
+    height: 250px;
+    margin: 5px;
+  }
+  .socials .top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    bottom: 0px;
+  }
+  .socials .botttom {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    top: 0px;
+  }
+  .socials p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+  }
+  .socials .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+    font-family: "mycustomfont";
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+  }
+  .footer {
+    margin: 30px 0 0 0;
+    padding: 40px;
+    background-color: rgb(116, 34, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .logo img {
+    margin: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 5vh;
+    width: auto;
+  }
+  .footer p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+  }
+  .footer .copy1 {
+    margin: 0 0 20px 40px;
+  }
+  .footer .copy i {
+    font-size: 18px;
+  }
+  .footer i {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+  .footer .ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .content1 {
+    padding: 10px 0 10px 0;
+  }
+  .footer .content1 i {
+    font-size: 18px;
+    margin: 5px;
+  }
+  .footer .content {
+    padding: 10px 0 10px 0;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation .snav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navigation .snav li {
+    display: inline-block;
+  }
+  .navigation .snav label {
+    display: block;
+  }
+  .navigation .snav label i {
+    position: relative;
+    font-size: 30px;
+    float: right;
+    left: 0;
+    padding: 10px;
+    margin: 20px 40px;
+    cursor: pointer;
+    display: none;
+    left: 139px;
+  }
+  .navigation .snav #check {
+    display: none;
+  }
+  .navigation .logo {
+    margin: 20px 0;
+    position: relative;
+    left: 3%;
+  }
+  .navigation .logo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 8vh;
+  }
+  .navigation nav {
+    display: inline;
+  }
+  .navigation nav a {
+    font-family: "mycustomfont";
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+  .navigation nav .serve {
+    color: rgb(116, 34, 150);
+  }
+  .navigation .light {
+    right: 10%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 40px 0;
+  }
+  .navigation .dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .navigation .dropbtn:hover, .navigation .dropbtn:focus {
+    background-color: white;
+  }
+  .navigation .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .navigation .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .navigation .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .navigation .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .navigation .show {
+    display: block;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px 30px 30px;
+  }
+  .banner .text h1 {
+    font-family: "mycustomfont";
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+  }
+  .banner .text p {
+    margin: 20px 0;
+    font-family: "mycustomfont";
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+  }
+  .banner .text .para1 {
+    color: rgb(116, 34, 150);
+  }
+  .banner .text i {
+    margin: 0 10px 0 0;
+  }
+  .banner .text a {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 10px 10px 0;
+  }
+  .banner .text .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .text .button2 {
+    color: black;
+    background-color: white;
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .images {
+    display: flex;
+  }
+  .banner .images img {
+    width: 166px;
+    height: 400px;
+  }
+  .banner .images .top {
+    display: none;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 50px 3px 0 0;
+  }
+  .banner .images .bottom {
+    margin: 0 5px 0px 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #ABOUT {
+    padding: 0;
+  }
+  #ABOUT h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 40px;
+  }
+  #ABOUT .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  #ABOUT .container p {
+    font-family: "mycustomfont";
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 10px 0 10px 0;
+  }
+  #ABOUT .container .pictext {
+    position: relative;
+    margin: 0 0 60px 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+  #ABOUT .container .pictext img {
+    width: 334px;
+    height: 421px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #ABOUT .container .pictext p {
+    width: 100%;
+  }
+  #ABOUT .container .pictext .M1 {
+    margin: 10px 10px 0 0;
+  }
+  #ABOUT .container .pictext .M2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+  #ABOUT .container .vidtext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  #ABOUT .container .vidtext .dance {
+    height: 560px;
+    width: 690px;
+    margin: 0 0 10px 0;
+  }
+  #ABOUT .container .vidtext .youtube {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+  }
+  #ABOUT .container .vidtext a {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+  }
+  #ABOUT .container .vidtext p {
+    width: 100%;
+  }
+  #ABOUT .container .vidtext .button1 {
+    border-width: 4px 8px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    margin: 12px 0 0 0;
+  }
+  #SERVICES {
+    margin: 0px;
+  }
+  #SERVICES .service h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 50px 0;
+  }
+  #SERVICES .service .images {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  #SERVICES .service .images .lin {
+    width: 300px;
+    height: 500px;
+    margin: 10px 0 10px 0;
+  }
+  #SERVICES .service .images .next {
+    width: 50px;
+    height: 50px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #SERVICES .service .images .digitalservice {
+    padding: 10px;
+    margin: 10px 0 10px 20px;
+    width: 300px;
+    height: 500px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+  }
+  #SERVICES .service .images .digitalservice p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  #SERVICES .service .images .digitalservice li {
+    list-style: number;
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px;
+    line-height: 1.4;
+  }
+  #SERVICES .service .images .digitalservice .hr {
+    width: 60px;
+    height: 2px;
+    color: white;
+    background-color: white;
+    border-color: white;
+  }
+  #SERVICES .service .images .digitalservice .over2 {
+    position: absolute;
+    top: 88%;
+    right: 0%;
+    background-color: white;
+    padding: 5px;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over1 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 33%;
+  }
+  #SERVICES .service .images .middle .over1 p {
+    margin: 0 60px 0 0;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over3 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 33%;
+  }
+  #SERVICES .service .images .middle .over3 p {
+    margin: 0 60px 0 0;
+  }
+  #TESTIMONIALS {
+    margin: 30px 30px 0 30px;
+  }
+  #TESTIMONIALS .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+  }
+  #TESTIMONIALS .container .h {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  #TESTIMONIALS .container .human {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 308px;
+    height: 250px;
+  }
+  #TESTIMONIALS .container .ceo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container .ceo .arrow img {
+    position: absolute;
+    top: 44%;
+    left: 85%;
+  }
+  #TESTIMONIALS .container .bride {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container .bride .arrow img {
+    position: absolute;
+    top: 44%;
+    left: 85%;
+  }
+  #TESTIMONIALS h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 40px 0;
+  }
+  .socials {
+    text-align: center;
+    padding: 40px;
+  }
+  .socials h3 {
+    font-family: "mycustomfont";
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    margin: 0 0 80px 0;
+    text-shadow: grey 2px 2px 2px;
+  }
+  .socials h3 span {
+    font-family: "style";
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .socials .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials .container img {
+    width: 161px;
+    height: 350px;
+    margin: 5px 5px 60px 5px;
+  }
+  .socials .top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    bottom: 20px;
+  }
+  .socials .botttom {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    top: 20px;
+  }
+  .socials p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .socials .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+    font-family: "mycustomfont";
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+  }
+  .footer {
+    padding: 20px;
+    background-color: rgb(116, 34, 150);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  .footer .logo img {
+    margin: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 5vh;
+    width: 150px;
+  }
+  .footer p {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .footer .para {
+    text-decoration: underline;
+  }
+  .footer .copy1 {
+    margin: 0 0 0px 20px;
+  }
+  .footer .copy i {
+    margin: 5px;
+    font-size: 14px;
+  }
+  .footer i {
+    font-size: 25px;
+    margin: 5px;
+  }
+  .footer .content1 i {
+    font-size: 18px;
+    margin: 5px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation .snav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navigation .snav li {
+    display: inline-block;
+  }
+  .navigation .snav label {
+    display: block;
+  }
+  .navigation .snav label i {
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+    margin: 20px 40px;
+    cursor: pointer;
+    display: none;
+  }
+  .navigation .snav #check {
+    display: none;
+  }
+  .navigation .logo {
+    margin: 20px 0;
+    position: relative;
+    left: 3%;
+  }
+  .navigation .logo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 6vh;
+  }
+  .navigation nav {
+    display: inline;
+  }
+  .navigation nav a {
+    font-family: "mycustomfont";
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+  .navigation nav .serve {
+    color: rgb(116, 34, 150);
+  }
+  .navigation .light {
+    right: 9%;
+    position: relative;
+    height: 3vh;
+    margin: 35px 0;
+  }
+  .navigation .dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .navigation .dropbtn:hover, .navigation .dropbtn:focus {
+    background-color: white;
+  }
+  .navigation .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .navigation .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .navigation .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .navigation .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .navigation .show {
+    display: block;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px 30px 30px;
+  }
+  .banner .text h1 {
+    font-family: "mycustomfont";
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+  }
+  .banner .text p {
+    margin: 20px 0;
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+  }
+  .banner .text .para1 {
+    color: rgb(116, 34, 150);
+  }
+  .banner .text i {
+    margin: 0 10px 0 0;
+  }
+  .banner .text a {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 10px 10px 0;
+  }
+  .banner .text .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .text .button2 {
+    color: black;
+    background-color: white;
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+  }
+  .banner .images {
+    display: flex;
+  }
+  .banner .images img {
+    width: 180px;
+    height: 500px;
+  }
+  .banner .images .top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 50px 5px 0 0;
+  }
+  .banner .images .bottom {
+    margin: 0 5px 50px 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner .images :is(:last-child) {
+    display: none;
+  }
+  #ABOUT {
+    padding: 0 0 30px 0;
+  }
+  #ABOUT h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 40px;
+  }
+  #ABOUT .container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #ABOUT .container p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 10px 0 10px 0;
+  }
+  #ABOUT .container .pictext {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+  #ABOUT .container .pictext img {
+    width: 220px;
+    height: 332px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #ABOUT .container .pictext P {
+    width: 80%;
+  }
+  #ABOUT .container .pictext .M1 {
+    margin: 10px 0 0 0;
+  }
+  #ABOUT .container .pictext .M2 {
+    position: absolute;
+    top: 57%;
+    left: 44%;
+  }
+  #ABOUT .container .vidtext {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+  #ABOUT .container .vidtext .dance {
+    height: 420px;
+    width: 417px;
+    margin: 0 0 10px 0;
+  }
+  #ABOUT .container .vidtext P {
+    width: 80%;
+  }
+  #ABOUT .container .vidtext .youtube {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+  #ABOUT .container .vidtext a {
+    font-family: "mycustomfont";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+  }
+  #ABOUT .container .vidtext .button1 {
+    border-width: 4px 8px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    margin: 12px 0 0 0;
+  }
+  #SERVICES {
+    margin: 0px;
+    padding: 10px;
+  }
+  #SERVICES .service h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 50px 0;
+  }
+  #SERVICES .service .images {
+    display: flex;
+  }
+  #SERVICES .service .images .lin {
+    width: 300px;
+    height: 420px;
+  }
+  #SERVICES .service .images .next {
+    width: 50px;
+    height: 50px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #SERVICES .service .images .digitalservice {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    width: 300px;
+    height: 420px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+  }
+  #SERVICES .service .images .digitalservice p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  #SERVICES .service .images .digitalservice li {
+    list-style: number;
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px;
+  }
+  #SERVICES .service .images .digitalservice .hr {
+    width: 60px;
+    height: 2px;
+    color: white;
+    background-color: white;
+    border-color: white;
+  }
+  #SERVICES .service .images .digitalservice .over2 {
+    position: absolute;
+    top: 88%;
+    right: 0%;
+    background-color: white;
+    padding: 5px;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over1 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 34%;
+  }
+  #SERVICES .service .images .middle .over1 p {
+    margin: 0 60px 0 0;
+  }
+  #SERVICES .service .images .middle {
+    position: relative;
+  }
+  #SERVICES .service .images .middle .over3 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 34%;
+  }
+  #SERVICES .service .images .middle .over3 p {
+    margin: 0 60px 0 0;
+  }
+  #TESTIMONIALS {
+    margin: 30px 30px 0 30px;
+  }
+  #TESTIMONIALS .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+  }
+  #TESTIMONIALS .container .h {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  #TESTIMONIALS .container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 400px;
+    height: 250px;
+  }
+  #TESTIMONIALS .container .ceo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS .container .bride {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #TESTIMONIALS h3 {
+    font-family: "mycustomfont";
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 40px 0;
+  }
+  .socials {
+    text-align: center;
+    padding: 40px;
+  }
+  .socials h3 {
+    font-family: "mycustomfont";
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    margin: 0 0 80px 0;
+    text-shadow: grey 2px 2px 2px;
+  }
+  .socials h3 span {
+    font-family: "style";
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .socials .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials .container img {
+    width: 140px;
+    height: 350px;
+    margin: 5px;
+  }
+  .socials .top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    bottom: 40px;
+  }
+  .socials .botttom {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    top: 40px;
+  }
+  .socials p {
+    font-family: "mycustomfont";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 60px 0 0 0;
+  }
+  .socials .button1 {
+    color: white;
+    background-color: rgb(116, 34, 150);
+    border: solid rgb(116, 34, 150);
+    border-width: 4px 8px;
+    font-family: "mycustomfont";
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+  }
+  .footer {
+    padding: 20px;
+    background-color: rgb(116, 34, 150);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .footer .logo img {
+    margin: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 4vh;
+    width: 150px;
+  }
+  .footer p {
+    font-family: "mycustomfont";
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .footer .para {
+    text-decoration: underline;
+  }
+  .footer .copy1 {
+    margin: 0 0 20px 40px;
+  }
+  .footer .copy i {
+    font-size: 18px;
+  }
+  .footer i {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .footer .content1 i {
+    font-size: 18px;
+    margin: 5px;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 993px) {
+  .navigation nav .logo {
+    width: 58%;
+  }
+  .navigation nav label i {
+    font-size: 20px;
+    margin: 40px 70px;
+  }
+  .navigation nav label #btn {
+    display: block;
+  }
+  .navigation nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    left: -108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .navigation nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation nav ul li a {
+    font-size: 25px;
+    color: black;
+  }
+  .navigation nav ul #cancel {
+    display: block;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .navigation nav #check:checked ~ ul {
+    left: -3%;
+    z-index: 2;
+  }
+  .navigation nav #check:checked ~ label #btn {
+    display: none;
+  }
+  .navigation nav #check:checked ~ label #cancel {
+    display: block;
+  }
+  .navigation nav #check:checked ~ .logo {
+    display: none;
+  }
+}
+@media (max-width: 559px) {
+  .navigation .light .light {
+    border-radius: 50%;
+    right: 8%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 35px 0;
+    cursor: pointer;
+  }
+  .navigation nav label i {
+    font-size: 40px;
+    margin: 20px 15px;
+  }
+  .navigation nav label #btn {
+    display: block;
+  }
+  .navigation nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    left: -108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .navigation nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation nav ul li a {
+    font-size: 40px;
+    color: black;
+  }
+  .navigation nav ul #cancel {
+    display: block;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    color: black;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  .navigation nav #check:checked ~ ul {
+    left: -5%;
+    z-index: 2;
+  }
+  .navigation nav #check:checked ~ label #btn {
+    display: none;
+  }
+  .navigation nav #check:checked ~ label #cancel {
+    display: block;
+  }
+  .navigation nav #check:checked ~ .logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .banner .images img {
+    width: 200px;
+    height: 541px;
+  }
+  #ABOUT .container .vidtext .dance {
+    height: 58vh;
+    width: 479px;
+    margin: 0 0 10px 0;
+  }
+  #ABOUT .container .pictext img {
+    width: 300px;
+    height: 49vh;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  #ABOUT .container .vidtext .youtube {
+    border-radius: 8px;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+  }
+  #ABOUT .container .pictext .M2 {
+    position: absolute;
+    top: 48%;
+    left: 47%;
+  }
+}/*# sourceMappingURL=style.css.map */
