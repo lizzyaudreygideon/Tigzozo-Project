@@ -68,6 +68,9 @@ body {
 .dark-mode .navigation ul {
   background-color: #000;
 }
+.dark-mode .navigation nav ul #cancel {
+  color: white;
+}
 
 .navigation {
   display: flex;
