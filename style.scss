@@ -528,8 +528,11 @@ flex-direction: column;
           position: absolute;
               top: 90%;
               right: 0%;
-              background-color: #f7f7f7;
+              background-color: #e5e5e5;
               padding: 5px;
+             img{
+              border-radius: 50%;
+             }
              
       }    
            margin: 20px;
@@ -802,6 +805,15 @@ border-width: 4px 8px;
 
 
 // MEDIA QUIRIES
+
+@media only screen and (max-width: 575.98px) {
+
+
+}
+
+
+
+
 @media only screen and (max-width: 575.98px) {
   // NAVIGATION
 
@@ -994,7 +1006,7 @@ font-size: 16px;
     }
     .top{
         object-fit: cover;
-   margin: 0;
+margin-right: 10px;
     }
 
     .bottom{
@@ -1174,8 +1186,11 @@ p {width: 100%;}
           position: absolute;
               top: 90%;
               right: 0%;
-              background-color: white;
+              background-color: #e5e5e5;
               padding: 5px;
+ 
+              img{
+              border-radius: 50%;}
              
       }    
            margin: 20px;
@@ -1840,8 +1855,10 @@ p{ width: 100%;}
           position: absolute;
               top: 88%;
               right: 0%;
-              background-color: white;
+              background-color: #e5e5e5;
               padding: 5px;
+
+              img{border-radius: 50%;}
              
       }    
             width: 300px;
@@ -2499,8 +2516,10 @@ P{width:80% ;}
         position: absolute;
             top: 88%;
             right: 0%;
-            background-color: white;
+            background-color: #e5e5e5;
             padding: 5px;
+
+
            
     }    
           width: 300px;
@@ -2983,21 +3002,151 @@ border-width: 4px 8px;
 #ABOUT .container .pictext .M2 {
     position: absolute;
     top: 48%;
-    left: 47%;
+    left: 46%;
+}
+
+#SERVICES .service .images .next {
+    width: 42px;
+    height: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.footer .logo img {
+    margin: 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 8vh;
+    width: 180px;
+}
+}
+
+@media only screen and (min-width:400px) {
+
+#TESTIMONIALS .container .ceo .arrow img {
+        position: absolute;
+        top: 42%;
+        left: 86%;
+    }
+
+
+#TESTIMONIALS .container .bride .arrow img {
+        position: absolute;
+        top: 42%;
+        left: 86%;
+    }
+
+        #TESTIMONIALS .container .human {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 337px;
+        height: 262px;
+    }
+
+        .navigation .light {
+        right: 9%;
+        position: relative;
+        height: 6vh;
+        margin: 37px 0;
+    }
+
+    
+}
+
+@media only screen and (min-width:425px) {
+
+#TESTIMONIALS .container .human {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 361px;
+        height: 269px;
+    }
+
+    #TESTIMONIALS .container .ceo .arrow img {
+        position: absolute;
+        top: 44%;
+        left: 86%;
+    }
+    
+    #TESTIMONIALS .container .bride .arrow img {
+        position: absolute;
+        top: 44%;
+        left: 86%;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+.footer .logo img {
+        margin: 10px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        height: 7vh;
+        width: 150px;
+    }
+
+    #TESTIMONIALS .container .ceo .arrow img {
+        position: absolute;
+        top: 43%;
+        left: 85%;
+    }
+
+    #TESTIMONIALS .container .bride .arrow img {
+        position: absolute;
+        top: 43%;
+        left: 85%;
+    }
+
+
 }
 
 
+// @media only screen and (min-width:1024px) {
+//     .footer .logo img {
+//         margin: 10px;
+//         -o-object-fit: cover;
+//         object-fit: cover;
+//         height: 9vh;
+//         width: 150px;
+//     }
+
+//     .navigation .logo img {
+//         -o-object-fit: cover;
+//         object-fit: cover;
+//         height: 11vh;
+//     }
+
+//         .navigation .light {
+//         right: 9%;
+//         position: relative;
+//         height: 7vh;
+//         margin: 20px 0;
+//     }
+
+//         #ABOUT .container .pictext .M2 {
+//         position: absolute;
+//         top: 57%;
+//         left: 43%;
+//     }
+// }
+
+@media only screen and (min-width:376px) {
+
+#TESTIMONIALS .container .human {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 337px;
+        height: 263px;
+    }
+
+    .navigation .light {
+        right: 9%;
+        position: relative;
+        height: 4vh;
+        margin: 36px 0;
+    }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
