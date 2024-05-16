@@ -274,7 +274,7 @@ body {
   flex-direction: column;
 }
 #ABOUT .container .pictext img {
-  width: 250px;
+  width: 248px;
   height: 46vh;
   -o-object-fit: fill;
      object-fit: fill;
@@ -421,7 +421,7 @@ body {
 #SERVICES .service .images .middle .over3 {
   display: flex;
   align-items: end;
-  position: absolute;
+  position: fixed;
   font-family: "mycustomfont";
   font-weight: 900;
   font-size: 30px;
@@ -595,7 +595,7 @@ body {
   margin: 5px;
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 575.5px) {
   .navigation {
     margin: 20px 0;
     display: flex;
@@ -804,8 +804,8 @@ body {
        object-fit: cover;
   }
   #SERVICES .service .images .next {
-    width: 42px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -842,7 +842,7 @@ body {
   }
   #SERVICES .service .images .digitalservice .over2 {
     position: absolute;
-    top: 90%;
+    top: 88%;
     right: 0%;
     background-color: #e5e5e5;
     padding: 5px;
@@ -862,8 +862,8 @@ body {
     font-size: 30px;
     color: white;
     position: absolute;
-    top: 92%;
-    left: 39%;
+    top: 90%;
+    left: 36%;
   }
   #SERVICES .service .images .middle .over1 p {
     margin: 0 60px 0 0;
@@ -880,8 +880,8 @@ body {
     font-size: 30px;
     color: white;
     position: absolute;
-    top: 92%;
-    left: 39%;
+    top: 90%;
+    left: 37%;
   }
   #SERVICES .service .images .middle .over3 p {
     margin: 0 60px 0 0;
@@ -922,7 +922,7 @@ body {
   }
   #TESTIMONIALS .container .ceo .arrow img {
     position: absolute;
-    top: 41%;
+    top: 42%;
     left: 86%;
   }
   #TESTIMONIALS .container .bride {
@@ -934,7 +934,7 @@ body {
   }
   #TESTIMONIALS .container .bride .arrow img {
     position: absolute;
-    top: 41%;
+    top: 42%;
     left: 86%;
   }
   #TESTIMONIALS h3 {
@@ -2182,45 +2182,21 @@ body {
     width: 180px;
   }
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  #TESTIMONIALS .container .human {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 341px;
+    height: 263px;
+  }
   #TESTIMONIALS .container .ceo .arrow img {
     position: absolute;
-    top: 42%;
+    top: 43%;
     left: 86%;
   }
   #TESTIMONIALS .container .bride .arrow img {
     position: absolute;
-    top: 42%;
-    left: 86%;
-  }
-  #TESTIMONIALS .container .human {
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 337px;
-    height: 262px;
-  }
-  .navigation .light {
-    right: 9%;
-    position: relative;
-    height: 6vh;
-    margin: 37px 0;
-  }
-}
-@media only screen and (min-width: 425px) {
-  #TESTIMONIALS .container .human {
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 361px;
-    height: 269px;
-  }
-  #TESTIMONIALS .container .ceo .arrow img {
-    position: absolute;
-    top: 44%;
-    left: 86%;
-  }
-  #TESTIMONIALS .container .bride .arrow img {
-    position: absolute;
-    top: 44%;
+    top: 43%;
     left: 86%;
   }
 }
@@ -2231,29 +2207,5 @@ body {
     object-fit: cover;
     height: 9vh;
     width: 150px;
-  }
-  #TESTIMONIALS .container .ceo .arrow img {
-    position: absolute;
-    top: 42%;
-    left: 85%;
-  }
-  #TESTIMONIALS .container .bride .arrow img {
-    position: absolute;
-    top: 42%;
-    left: 85%;
-  }
-}
-@media only screen and (min-width: 376px) {
-  #TESTIMONIALS .container .human {
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 337px;
-    height: 255px;
-  }
-  .navigation .light {
-    right: 9%;
-    position: relative;
-    height: 6vh;
-    margin: 20px 0;
   }
 }/*# sourceMappingURL=style.css.map */

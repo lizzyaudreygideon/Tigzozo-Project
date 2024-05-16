@@ -391,7 +391,7 @@ a{
         align-items: start;
          flex-direction: column;    
         img{
-            width: 250px;
+            width: 248px;
             height: 46vh;
             object-fit: fill;
         }
@@ -566,7 +566,7 @@ margin: 0 60px 0 0;
         .over3{
             display: flex;
             align-items: end;
-            position: absolute;
+            position: fixed;
            
                 font-family: "mycustomfont";
                 font-weight: 900;
@@ -575,6 +575,7 @@ margin: 0 60px 0 0;
               position: absolute;
               top: 92%;
               left: 47%;
+             
 p{
 margin: 0 60px 0 0;
 
@@ -806,15 +807,11 @@ border-width: 4px 8px;
 
 // MEDIA QUIRIES
 
-@media only screen and (max-width: 575.98px) {
-
-
-}
 
 
 
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 575.5px) {
   // NAVIGATION
 
 .navigation{
@@ -1140,8 +1137,8 @@ p {width: 100%;}
         }
         .next{
        
-            width: 42px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             object-fit: cover;
         }
        
@@ -1184,7 +1181,7 @@ p {width: 100%;}
              
      .over2{    
           position: absolute;
-              top: 90%;
+              top: 88%;
               right: 0%;
               background-color: #e5e5e5;
               padding: 5px;
@@ -1212,8 +1209,8 @@ p {width: 100%;}
                 font-size: 30px;
                 color: white;
               position: absolute;
-              top: 92%;
-              left: 39%;
+              top: 90%;
+              left: 36%;
 p{
 margin: 0 60px 0 0;
 }  } }
@@ -1231,8 +1228,8 @@ margin: 0 60px 0 0;
                 font-size: 30px;
                 color: white;
               position: absolute;
-              top: 92%;
-              left: 39%;
+              top: 90%;
+              left: 37%;
 p{
 margin: 0 60px 0 0;
 
@@ -1287,7 +1284,7 @@ margin: 0 60px 0 0;
          position: relative;
            .arrow{
          img{ position: absolute;
-          top: 41%;
+          top: 42%;
              left: 86%;}
            }
            margin: 0 0 20px 0;
@@ -1302,7 +1299,7 @@ margin: 0 60px 0 0;
 
          .arrow{
          img{ position: absolute;
-          top: 41%;
+          top: 42%;
              left: 86%;}
            }
         bottom:  0px; 
@@ -3020,56 +3017,65 @@ border-width: 4px 8px;
 }
 }
 
-@media only screen and (min-width:400px) {
+// @media only screen and (min-width:400px) {
 
-#TESTIMONIALS .container .ceo .arrow img {
-        position: absolute;
-        top: 42%;
-        left: 86%;
-    }
+// #TESTIMONIALS .container .ceo .arrow img {
+//         position: absolute;
+//         top: 42%;
+//         left: 86%;
+//     }
 
 
-#TESTIMONIALS .container .bride .arrow img {
-        position: absolute;
-        top: 42%;
-        left: 86%;
-    }
+// #TESTIMONIALS .container .bride .arrow img {
+//         position: absolute;
+//         top: 42%;
+//         left: 86%;
+//     }
 
-        #TESTIMONIALS .container .human {
-        -o-object-fit: cover;
-        object-fit: cover;
-        width: 337px;
-        height: 262px;
-    }
+//         #TESTIMONIALS .container .human {
+//         -o-object-fit: cover;
+//         object-fit: cover;
+//         width: 337px;
+//         height: 262px;
+//     }
 
-        .navigation .light {
-        right: 9%;
-        position: relative;
-        height: 6vh;
-        margin: 37px 0;
-    }
+//         .navigation .light {
+//         right: 9%;
+//         position: relative;
+//         height: 6vh;
+//         margin: 37px 0;
+//     }
 
     
-}
+// }
 
-@media only screen and (min-width:425px) {
+// @media only screen and (min-width:413px) and (max-width:415px){
+//     #TESTIMONIALS .container .human {  object-fit: cover;
+//         width: 352px;
+//         height: 263px;}
+// }
+
+@media only screen and (min-width:400px) and (max-width:500px) {
 
 #TESTIMONIALS .container .human {
         -o-object-fit: cover;
         object-fit: cover;
-        width: 361px;
-        height: 269px;
+        // width: 361px;
+        // height: 269px;
+        
+        width: 341px;
+        height: 263px;
     }
 
     #TESTIMONIALS .container .ceo .arrow img {
         position: absolute;
-        top: 44%;
+        top: 43%;
         left: 86%;
     }
     
     #TESTIMONIALS .container .bride .arrow img {
         position: absolute;
-        top: 44%;
+        top: 43%;
         left: 86%;
     }
 
@@ -3085,66 +3091,17 @@ border-width: 4px 8px;
         width: 150px;
     }
 
-    #TESTIMONIALS .container .ceo .arrow img {
-        position: absolute;
-        top: 42%;
-        left: 85%;
-    }
+    // #TESTIMONIALS .container .ceo .arrow img {
+    //     position: absolute;
+    //     top: 42%;
+    //     left: 85%;
+    // }
 
-    #TESTIMONIALS .container .bride .arrow img {
-        position: absolute;
-        top: 42%;
-        left: 85%;
-    }
-
-
-}
-
-
-// @media only screen and (min-width:1024px) {
-//     .footer .logo img {
-//         margin: 10px;
-//         -o-object-fit: cover;
-//         object-fit: cover;
-//         height: 9vh;
-//         width: 150px;
-//     }
-
-//     .navigation .logo img {
-//         -o-object-fit: cover;
-//         object-fit: cover;
-//         height: 11vh;
-//     }
-
-//         .navigation .light {
-//         right: 9%;
-//         position: relative;
-//         height: 7vh;
-//         margin: 20px 0;
-//     }
-
-//         #ABOUT .container .pictext .M2 {
-//         position: absolute;
-//         top: 57%;
-//         left: 43%;
-//     }
-// }
-
-@media only screen and (min-width:376px) {
-
-#TESTIMONIALS .container .human {
-        -o-object-fit: cover;
-        object-fit: cover;
-        width: 337px;
-        height: 255px;
-    }
-
-    .navigation .light {
-        right: 9%;
-        position: relative;
-        height: 6vh;
-        margin: 20px 0;
-    }
+    // #TESTIMONIALS .container .bride .arrow img {
+    //     position: absolute;
+    //     top: 42%;
+    //     left: 85%;
+    // }
 
 
 }
