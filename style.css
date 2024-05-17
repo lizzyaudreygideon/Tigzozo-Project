@@ -350,8 +350,8 @@ body {
   height: 500px;
 }
 #SERVICES .service .images .next {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -363,6 +363,12 @@ body {
   height: 500px;
   color: white;
   background-color: rgb(116, 34, 150);
+}
+#SERVICES .service .images .digitalservice .next {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #SERVICES .service .images .digitalservice p {
   font-family: "mycustomfont";
@@ -409,8 +415,8 @@ body {
   font-size: 30px;
   color: white;
   position: absolute;
-  top: 92%;
-  left: 46%;
+  top: 90%;
+  left: 43%;
 }
 #SERVICES .service .images .middle .over1 p {
   margin: 0 60px 0 0;
@@ -427,8 +433,8 @@ body {
   font-size: 30px;
   color: white;
   position: absolute;
-  top: 92%;
-  left: 47%;
+  top: 90%;
+  left: 44%;
 }
 #SERVICES .service .images .middle .over3 p {
   margin: 0 60px 0 0;
@@ -1090,7 +1096,7 @@ body {
   .navigation .logo img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 8vh;
+    height: 12vh;
   }
   .navigation nav {
     display: inline;
@@ -2195,7 +2201,7 @@ body {
   }
   #SERVICES .service .images .digitalservice .over2 {
     position: absolute;
-    top: 88%;
+    top: 90%;
     right: 0%;
     background-color: #e5e5e5;
     padding: 5px;
@@ -2235,12 +2241,89 @@ body {
     left: 86%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 766.9px) and (max-width: 767.98px) {
+  .navigation .logo img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 13vh;
+  }
   .footer .logo img {
     margin: 10px;
     -o-object-fit: cover;
     object-fit: cover;
     height: 9vh;
     width: 150px;
+  }
+  #ABOUT .container .pictext .M2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+  #ABOUT .container .pictext p {
+    width: 100%;
+  }
+  #TESTIMONIALS .container {
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+  }
+  #SERVICES .service .images .middle .over3 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 36%;
+  }
+  #SERVICES .service .images .middle .over1 {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    font-family: "mycustomfont";
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 35%;
+  }
+  #SERVICES .service .images .next {
+    width: 50px;
+    height: 52px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  #SERVICES .service .images .digitalservice .over2 {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    background-color: #e5e5e5;
+    padding: 5px;
+  }
+  #SERVICES .service .images .lin {
+    width: 306px;
+    height: 492px;
+    margin: 10px 0 10px 0;
+  }
+  #SERVICES .service .images .digitalservice {
+    padding: 10px;
+    margin: 10px 0 10px 20px;
+    width: 306px;
+    height: 492px;
+    color: white;
+    background-color: rgb(116, 34, 150);
+  }
+  #SERVICES .service .images .digitalservice .next {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container, .container-md, .container-sm {
+    max-width: 720px;
   }
 }/*# sourceMappingURL=style.css.map */
